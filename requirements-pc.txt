@@ -1,0 +1,7 @@
+# PC: keypoint extraction, training, ONNX export (DX-COM is installed separately)
+numpy
+opencv-python
+torch
+onnx
+onnxruntime
+ultralytics

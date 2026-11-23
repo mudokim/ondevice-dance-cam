@@ -1,0 +1,12 @@
+{
+  "label_hold_s": 0.1,
+  "label_min_prob": 0.5,
+  "default": {"effect": "none", "tau": 0.25},
+  "moves": {
+    "L_gajyeoga":         {"effect": "roll", "max_deg": 15, "ext_full": 0.8, "sign": 1, "hold_zoom": true, "tau": 0.15, "tau_roll": 0.08},
+    "cream_cheese_honey": {"effect": "bob", "zoom": 1.15, "gain": 0.6, "tau": 0.04},
+    "criss_cross":        {"effect": "pan_zoom", "zoom": 1.18, "shift": 0.12, "tau": 0.12},
+    "yachae":             {"effect": "fist_zoom", "low": -0.45, "high": 0.25, "max_zoom_add": 0.35, "tau": 0.12},
+    "selca":              {"effect": "face_zoom", "pad": 1.6, "max_zoom": 2.2, "tau": 0.7}
+  }
+}

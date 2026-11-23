@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+# videos and generated data
+*.mp4
+*.mov
+data/kpts/
+runs/
+runs_pi/
+build/
+weights/
+*.npz
+!models/*

@@ -1,0 +1,29 @@
+{
+ "mode": "Async (depth 2)",
+ "camera_fps": 30.0,
+ "camera_frames": 437,
+ "processed": 437,
+ "dropped": 0,
+ "processed_fps": 30.0,
+ "fps_on_screen": {
+  "mean": 30.0,
+  "min": 29.2
+ },
+ "ms_per_frame": {
+  "pre": 8.44,
+  "npu_wait": 24.91,
+  "post": 1.05,
+  "classify": 1.38,
+  "effect_render": 4.59,
+  "hud": 0.54,
+  "queue_out": 0.07
+ },
+ "pose_npu_core_ms": 5.22,
+ "pose_infer_latency_ms": 27.6,
+ "classifier_npu_ms_per_call": 1.85,
+ "latency_ms": {
+  "median": 51.0,
+  "p95": 56.4
+ },
+ "writer_dropped": 0
+}

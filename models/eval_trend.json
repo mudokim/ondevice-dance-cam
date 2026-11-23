@@ -1,0 +1,106 @@
+{
+ "frames_scored": 433,
+ "raw_acc": 0.908,
+ "active_acc": 0.843,
+ "switch_delay_s": {
+  "median": 0.28,
+  "max": 0.37,
+  "missed_segments": 0
+ },
+ "per_class": {
+  "idle": {
+   "frames": 51,
+   "raw_acc": 0.824,
+   "active_acc": 0.824
+  },
+  "L_gajyeoga": {
+   "frames": 181,
+   "raw_acc": 0.906,
+   "active_acc": 0.823
+  },
+  "cream_cheese_honey": {
+   "frames": 51,
+   "raw_acc": 0.961,
+   "active_acc": 0.902
+  },
+  "criss_cross": {
+   "frames": 50,
+   "raw_acc": 1.0,
+   "active_acc": 0.94
+  },
+  "selca": {
+   "frames": 52,
+   "raw_acc": 0.885,
+   "active_acc": 0.808
+  },
+  "yachae": {
+   "frames": 48,
+   "raw_acc": 0.875,
+   "active_acc": 0.812
+  }
+ },
+ "segments": [
+  {
+   "segment": "L_gajyeoga 1.70-3.00",
+   "switch_delay_s": 0.37
+  },
+  {
+   "segment": "cream_cheese_honey 3.02-4.72",
+   "switch_delay_s": 0.18
+  },
+  {
+   "segment": "L_gajyeoga 4.73-6.30",
+   "switch_delay_s": 0.17
+  },
+  {
+   "segment": "criss_cross 6.32-8.00",
+   "switch_delay_s": 0.11
+  },
+  {
+   "segment": "L_gajyeoga 8.02-9.45",
+   "switch_delay_s": 0.25
+  },
+  {
+   "segment": "yachae 9.47-11.08",
+   "switch_delay_s": 0.33
+  },
+  {
+   "segment": "L_gajyeoga 11.10-12.82",
+   "switch_delay_s": 0.3
+  },
+  {
+   "segment": "selca 12.82-14.55",
+   "switch_delay_s": 0.35
+  }
+ ],
+ "active_confusion": {
+  "L_gajyeoga": {
+   "idle": 8,
+   "L_gajyeoga": 149,
+   "cream_cheese_honey": 8,
+   "criss_cross": 7,
+   "yachae": 9
+  },
+  "cream_cheese_honey": {
+   "L_gajyeoga": 5,
+   "cream_cheese_honey": 46
+  },
+  "criss_cross": {
+   "L_gajyeoga": 3,
+   "criss_cross": 47
+  },
+  "idle": {
+   "idle": 42,
+   "cream_cheese_honey": 2,
+   "": 7
+  },
+  "selca": {
+   "L_gajyeoga": 10,
+   "selca": 42
+  },
+  "yachae": {
+   "L_gajyeoga": 9,
+   "yachae": 39
+  }
+ }
+}

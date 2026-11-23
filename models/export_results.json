@@ -1,0 +1,14 @@
+{
+  "cnn2d": {
+    "params": 94246,
+    "onnx_mb": 0.379,
+    "trained": true,
+    "ort_max_abs_diff": 1.9073486328125e-06,
+    "compile": "ok",
+    "compile_s": 1.5,
+    "dxnn": [
+      "cnn2d.dxnn"
+    ],
+    "dxnn_mb": 0.125
+  }
+}

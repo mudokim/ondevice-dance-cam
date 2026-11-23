@@ -1,0 +1,103 @@
+{
+ "frames_scored": 430,
+ "raw_acc": 0.677,
+ "active_acc": 0.716,
+ "switch_delay_s": {
+  "median": 0.08,
+  "max": 0.41,
+  "missed_segments": 1
+ },
+ "per_class": {
+  "idle": {
+   "frames": 49,
+   "raw_acc": 0.0,
+   "active_acc": 0.0
+  },
+  "L_gajyeoga": {
+   "frames": 191,
+   "raw_acc": 0.995,
+   "active_acc": 0.99
+  },
+  "cream_cheese_honey": {
+   "frames": 47,
+   "raw_acc": 0.872,
+   "active_acc": 0.936
+  },
+  "criss_cross": {
+   "frames": 47,
+   "raw_acc": 0.468,
+   "active_acc": 0.851
+  },
+  "selca": {
+   "frames": 47,
+   "raw_acc": 0.809,
+   "active_acc": 0.745
+  },
+  "yachae": {
+   "frames": 49,
+   "raw_acc": 0.0,
+   "active_acc": 0.0
+  }
+ },
+ "segments": [
+  {
+   "segment": "L_gajyeoga 1.65-3.24",
+   "switch_delay_s": 0.02
+  },
+  {
+   "segment": "cream_cheese_honey 3.25-4.82",
+   "switch_delay_s": 0.08
+  },
+  {
+   "segment": "L_gajyeoga 4.84-6.42",
+   "switch_delay_s": 0.03
+  },
+  {
+   "segment": "criss_cross 6.44-8.01",
+   "switch_delay_s": 0.26
+  },
+  {
+   "segment": "L_gajyeoga 8.02-9.61",
+   "switch_delay_s": 0.08
+  },
+  {
+   "segment": "yachae 9.63-11.24",
+   "switch_delay_s": null
+  },
+  {
+   "segment": "L_gajyeoga 11.26-12.85",
+   "switch_delay_s": 0.01
+  },
+  {
+   "segment": "selca 12.86-14.43",
+   "switch_delay_s": 0.41
+  }
+ ],
+ "active_confusion": {
+  "L_gajyeoga": {
+   "L_gajyeoga": 189,
+   "criss_cross": 2
+  },
+  "cream_cheese_honey": {
+   "L_gajyeoga": 3,
+   "cream_cheese_honey": 44
+  },
+  "criss_cross": {
+   "L_gajyeoga": 7,
+   "criss_cross": 40
+  },
+  "idle": {
+   "L_gajyeoga": 3,
+   "selca": 40,
+   "": 6
+  },
+  "selca": {
+   "L_gajyeoga": 12,
+   "selca": 35
+  },
+  "yachae": {
+   "L_gajyeoga": 27,
+   "selca": 22
+  }
+ }
+}
